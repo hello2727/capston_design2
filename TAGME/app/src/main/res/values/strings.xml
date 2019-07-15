@@ -1,12 +1,22 @@
 <resources>
-    <string name="app_name">TAGME</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
-    <string name="rb01">Point</string>
-    <string name="rb02">Coupon</string>
-    <string name="rb03">Review</string>
+    <string name="join"><u>회원가입</u></string>
+    <string name="app_name">태그미</string>
+    <string name="app_name_eng">tagme</string>
+    <string name="str_done">완료</string>
+    <string-array name="list_filter_mode">
+        <item>거리순</item>
+        <item>평점순</item>
+    </string-array>
+    <string-array name="drawer_list_menu">
+        <item>공지사항</item>
+        <item>이벤트</item>
+        <item>문의</item>
+        <item>업데이트</item>
+        <item>고객센터</item>
+    </string-array>
+    <string-array name="drawer_gird_menu">
+        <item>포인트</item>
+        <item>쿠폰</item>
+        <item>결제내역</item>
+    </string-array>
 </resources>

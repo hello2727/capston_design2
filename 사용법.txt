@@ -1,0 +1,17 @@
+*폴더 git이랑 연결(한번 연결된 폴더는 반복 설정 필요 없음)
+1.git init
+2.git remote add origin 프로젝트주소
+
+*폴더 안 파일 상태
+git status
+
+*내용 올리기
+1.git add .
+2.git commit -m "Hello Github" //hello~는 올리는 파일의 commit
+3.git push origin master
+
+*다른사람 파일 가져오기
+git pull origin master
+
+*파일 내용 추가시 아까 올린 파일 내용 바꾸기
+git commit -m "second commit"
