@@ -2,6 +2,7 @@
 >NFC 태그를 활용한 음식점 주문/결제 자동화 어플리케이션
 ## 1.결과물
 ## 2. 환경설정
+- Build.gradle(module)
 ```
 // ted permission
     implementation 'gun0912.ted:tedpermission:2.1.1'
@@ -25,4 +26,21 @@
     // glide
     implementation 'com.github.bumptech.glide:okhttp3-integration:4.8.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+```
+- Manifest
+```
+<uses-feature
+        android:name="android.hardware.nfc"
+        android:required="false" />
+
+    <!-- NFC 퍼미션 -->
+    <uses-permission android:name="android.permission.NFC" />
+    <!-- HTTP 퍼미션 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- GPS 퍼미션 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 와이파이 퍼미션-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
 ```
