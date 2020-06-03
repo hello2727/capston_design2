@@ -2,7 +2,7 @@
 >NFC 태그를 활용한 음식점 주문/결제 자동화 어플리케이션
 ## 1.결과물
 <div>
-    <img width="200" src="https://user-images.githubusercontent.com/43267195/83626990-3f7b1400-a5d1-11ea-8a3e-c5571482291d.png">
+    <img src="https://user-images.githubusercontent.com/43267195/83626990-3f7b1400-a5d1-11ea-8a3e-c5571482291d.png">
 </div>
 
 ## 2. 환경설정
