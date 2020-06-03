@@ -1,6 +1,10 @@
 # 프로젝트 제목 : tagme
 >NFC 태그를 활용한 음식점 주문/결제 자동화 어플리케이션
 ## 1.결과물
+<div>
+    <img width="200" src="">
+</div>
+
 ## 2. 환경설정
 - Build.gradle(module)
 ```
