@@ -1,12 +1,24 @@
-# 프로젝트 제목 : tagme
+팀프로젝트 (3인)
+==============================
 >NFC 태그를 활용한 음식점 주문/결제 자동화 어플리케이션
-## 1.결과물
+
+앱스토어 등록여부
+-----------------
+* 미등록
+
+개발환경
+-----------------
+
+
+결과물
+-----------------
 <div>
     <img src="https://user-images.githubusercontent.com/43267195/83626990-3f7b1400-a5d1-11ea-8a3e-c5571482291d.png">
 </div>
 
-## 2. 환경설정
-- Build.gradle(module)
+환경설정
+-----------------
+- build.gradle(module)
 ```
 // ted permission
     implementation 'gun0912.ted:tedpermission:2.1.1'
@@ -31,7 +43,7 @@
     implementation 'com.github.bumptech.glide:okhttp3-integration:4.8.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
 ```
-- Manifest
+- manifest
 ```
 <uses-feature
         android:name="android.hardware.nfc"
